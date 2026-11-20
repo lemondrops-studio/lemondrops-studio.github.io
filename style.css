@@ -159,6 +159,53 @@ h2 {
 .contact h2 { margin-bottom: .75rem; }
 .contact p { margin: 0; overflow-wrap: anywhere; }
 
+/* A work's own pages (support, privacy): the name as a way home, then plain reading */
+.page-head {
+  background: var(--hero-bg);
+  color: var(--hero-ink);
+}
+.page-head-inner {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: .9rem 1rem;
+}
+.page-head .home {
+  font: 400 1.75rem/1 var(--display);
+  text-decoration: none;
+}
+.page-head .home:hover { background: none; text-decoration: underline; text-decoration-color: var(--link-line); }
+.doc { padding-top: clamp(2rem, 6vw, 3.5rem); }
+.doc h1 {
+  margin: 0 0 .5rem;
+  font: 400 clamp(2.25rem, 8vw, 3.25rem)/1.05 var(--display);
+}
+.doc .lang,
+.doc .updated {
+  margin: 0 0 1.75rem;
+  color: var(--muted);
+  font-size: .9375rem;
+}
+.doc h1 + .updated { margin-bottom: .25rem; }
+.doc h2,
+.doc h3 {
+  margin: 2rem 0 .4rem;
+  font: 600 1.1875rem/1.35 var(--text);
+}
+.doc p { max-width: 38rem; margin: 0 0 1rem; }
+.doc ul { max-width: 38rem; margin: 0 0 1rem; padding-left: 1.25rem; }
+.doc li + li { margin-top: .5rem; }
+.doc .ko {
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  border-top: 2px solid var(--mist);
+  word-break: keep-all;
+}
+.doc .ko .ko-title {
+  margin: 0 0 .5rem;
+  font: 400 clamp(1.875rem, 6vw, 2.5rem)/1.1 var(--display);
+}
+.doc .ko-title + p:not(.updated) { margin-top: 1.25rem; }
+
 .site-footer {
   background: var(--mist);
   color: var(--muted);

@@ -8,6 +8,10 @@ Plain HTML and CSS, no build. GitHub Pages serves `main` at https://lemondrops.d
 
 - `works/` holds each work's icon, copied from its project: Riftlancer's store icon,
   Pacenote's app icon and Loopromeda's PWA icon.
+- `riftlancer/` is Riftlancer's support page and `riftlancer/privacy/` its privacy
+  policy, in English and Korean, which the App Store and Google Play link to (they
+  moved here from blog.ashon.dev/projects/riftlancer/ on 2026-11-21). The policy
+  must stay true to the game: change it before a build that collects anything.
 - The page carries no business details (상호, 대표자, 사업자등록번호, address, phone)
   for now. The stores show the seller's details where they sell; if the page ever sells
   anything itself, they go in the footer, with the 통신판매업 신고번호.
